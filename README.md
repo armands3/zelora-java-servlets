@@ -16,6 +16,8 @@ The deadline for this assignment is 1/12/2023 @ 11:59pm. Students will lose writ
 <p>- Added sample images to store page</p>
 <p>- CSS added to put images into grid</p>
 <p>- Some more CSS to Clean up the page</p>
+<p>- Added Login page</p>
+<p>- Done some more CSS on the login page</p>
 <hr>
 
 <h1>Week 3</h1>
