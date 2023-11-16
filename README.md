@@ -2,3 +2,27 @@
 # Your Weekly Progress Reports Go Here :smiley:
 
 The deadline for this assignment is 1/12/2023 @ 11:59pm. Students will lose write access to their repository after the deadline has expired :open_mouth:
+
+
+<h1>Week 1</h1>
+
+<hr>
+
+<h1>Week 2</h1>
+<p>- started working on Front Page</p>
+<p>- Created Nav bar and Store Link</p>
+<p>- Linked logo</p>
+<p>- Simple CSS to tidy up the page</p>
+<p>- Added sample images to store page</p>
+<p>- CSS added to put images into grid</p>
+<p>- Some more CSS to Clean up the page</p>
+<hr>
+
+<h1>Week 3</h1>
+<hr>
+
+<h1>Week 4</h1>
+<hr>
+
+<h1>Week 5</h1>
+<hr>
