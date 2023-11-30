@@ -9,6 +9,7 @@
 
 </head>
 <body>
+<%@ include file="navbar.jsp" %>
 <div class="container">
     <h1>Inventory ID ${inventory.inventoryId}</h1>
 

@@ -1,29 +1,32 @@
 package controllers;
 
-import model.Inventory;
-import model.InventoryDB;
+import model.Customer;
+import model.CustomerDB;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "ShowAllInventory", value = "/ShowAllInventory")
-public class ShowAllInventory extends HttpServlet {
+@WebServlet(name = "ShowAllCustomer", value = "/ShowAllCustomer")
+public class ShowAllCustomer extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String address;
 
         try {
-            List<Inventory> list = InventoryDB.getAllInventory();
+            List<Customer> list = CustomerDB.getAllCustomers();
 
             if (list == null || list.isEmpty()) {
                 address = "/Error.jsp";
             } else {
 
-                address = "/ShowAllInventory.jsp";
+                address = "/ShowAllCustomer.jsp";
                 request.setAttribute("list", list);
             }
 

@@ -10,15 +10,13 @@
 </head>
 
 <body>
-<header>
-  <img src="assets/images/thumbs/no-image.png" alt="Zelora Logo" id="logo">
-  <h1>Zelora</h1>
-</header>
+<%@ include file="navbar.jsp" %>
 
-<nav>
-  <a href="index.jsp">Home</a>
-  <a href="Login.jsp">Login</a>
-</nav>
+<div id="contentToTranslate">
+  <!-- Your page content goes here -->
+  <h1>Welcome to Your Page</h1>
+  <p>This is your unique content.</p>
+</div>
 
 <section>
   <form id="searchForm">

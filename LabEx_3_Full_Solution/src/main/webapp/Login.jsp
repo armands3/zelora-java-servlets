@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,16 +11,7 @@
 </head>
 
 <body>
-<header>
-    <img src="assets/images/thumbs/no-image.png" alt="Zelora Logo" id="logo">
-    <h1>Your Website</h1>
-</header>
-
-<nav>
-    <a href="index.jsp">Home</a>
-    <a href="Store.jsp">Store</a>
-</nav>
-
+<%@ include file="navbar.jsp" %>
 <section>
     <div class="login-form">
         <h2>Login</h2>
@@ -30,6 +22,7 @@
         </form>
     </div>
 </section>
+
 
 <footer>
 </footer>

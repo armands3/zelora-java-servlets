@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Assignmnent2_K00257642:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Assignmnent2_K00257642</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LabEx_3_Full_Solution-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Assignmnent2_K00257642:war exploded" />
+    </root>
+  </artifact>
+</component>

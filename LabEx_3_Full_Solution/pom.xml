@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Project2-K00257642</artifactId>
+    <artifactId>LabEx_3_Full_Solution</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Project2-K00257642</name>
+    <name>LabEx_3_Full_Solution</name>
     <packaging>war</packaging>
 
     <properties>
@@ -37,7 +37,8 @@
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>2.3.3</version> <!-- Use the version compatible with your container -->
+            <version>2.3.3</version>
+            <!--  Use the version compatible with your container  -->
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -63,7 +64,6 @@
             <version>1.18.24</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>

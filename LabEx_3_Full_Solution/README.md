@@ -35,6 +35,17 @@ The deadline for this assignment is 1/12/2023 @ 11:59pm. Students will lose writ
 <hr>
 
 <h1>Week 4</h1>
+<p>- Created CustomerDB</p>
+<p>- Created Customer Controller`</p>
+<p>- Created Show all customers webpage</p>
+<p>- Issues with Loading Project, Created New Project</p>
+<p>- Displaying data not working again -- Cannot fix it!!</p>
+<p>- Creating translation API integration</p>
+<p>- Acquired API key for project</p>
+<p>- Integrated Translation</p>
+<p>- Created NavBar file with translation for each page</p>
+<p>- </p>
+<p>- </p>
 <hr>
 
 <h1>Week 5</h1>
